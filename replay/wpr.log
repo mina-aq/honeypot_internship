@@ -1,0 +1,57 @@
+2025/06/17 16:41:59 Loading cert from cert.pem
+2025/06/17 16:41:59 Loading key from key.pem
+2025/06/17 16:41:59 Loading archive file from /home/mina/Desktop/automatization_scripts/honeypot_internship/replay/archive.wprgo
+2025/06/17 16:41:59 Opened archive /home/mina/Desktop/automatization_scripts/honeypot_internship/replay/archive.wprgo
+2025/06/17 16:41:59 Loading script from deterministic.js
+2025/06/17 16:41:59 Use Ctrl-C to exit.
+2025/06/17 16:41:59 Starting server on http://127.0.0.1:8080
+2025/06/17 16:41:59 Starting server on https://127.0.0.1:8081
+2025/06/17 16:42:14 http: TLS handshake error from 127.0.0.1:50290: EOF
+2025/06/17 16:42:14 ServeHTTP(https://clientservices.googleapis.com/chrome-variations/seed?osname=linux&channel=stable&milestone=137): serving 304 response
+2025/06/17 16:42:14 ServeHTTP(https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard): serving 200 response
+2025/06/17 16:42:15 ServeHTTP(https://www.google.com/async/newtab_ogb?hl=en-US&async=fixed:0): serving 200 response
+2025/06/17 16:42:15 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&oft=1&pgcl=20&gs_rn=42&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): serving 200 response
+2025/06/17 16:42:15 ServeHTTP(https://www.google.com/async/newtab_promos): serving 200 response
+2025/06/17 16:42:15 ScriptInjector(https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData): no start tags found, skip injecting script
+2025/06/17 16:42:15 ServeHTTP(https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData): serving 200 response
+2025/06/17 16:42:15 ServeHTTP(https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData): serving 200 response
+2025/06/17 16:42:16 ServeHTTP(https://play.google.com/log?format=json&hasfast=true): serving 200 response
+2025/06/17 16:42:16 ServeHTTP(https://play.google.com/log?format=json&hasfast=true): serving 200 response
+2025/06/17 16:42:16 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=g&oit=1&cp=1&pgcl=7&gs_rn=42&psi=2H_F1DWRHI_-Yon2&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): serving 200 response
+2025/06/17 16:42:16 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=gr&oit=1&cp=2&pgcl=7&gs_rn=42&psi=2H_F1DWRHI_-Yon2&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): serving 200 response
+2025/06/17 16:42:16 ServeHTTP(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLlB7MdCHR9L1MLYFYdX5KeAwkvsxFGw2g_B0Uc4q7fVwQvDN1I3MHK0A&s=10): serving 404 response
+2025/06/17 16:42:17 ServeHTTP(https://update.googleapis.com/service/update2/json?cup2key=15:ZjAfzyOZcoUi-dfIqmJNkcOt85qFluabMff33TtR_68&cup2hreq=c3d1b612ac70a25b11e216ac12ddd667b3f1342b6d625b48865ff03dd6347998): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://google-ohttp-relay-safebrowsing.fastly-edge.com/): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/fonts/inter.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/fonts/outfit.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/fonts/font-awesome/css/font-awesome.min.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/fonts/poppins.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/fonts/dm-sans.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/app.min.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/shared.min.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/tw-styles.min.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/themes.min.css): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/banner.5719f285e8a67d681acba48317dde80a99c6ee568b21693b0aa0b1c561d3d175.js): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/faro.3bad03430cfc94f98d581330cf44796dc3b8353fc32a82e74fcc09bfa82f4fe7.js): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/app.ee05e03efc9ffa0d6dbdf4f4610ae23d2e43863f529b629f7260c4e62f487ce9.js): serving 200 response
+2025/06/17 16:42:20 ServeHTTP(https://grafana.com/web/shared.061a61b1c9eb1a5d0a7b56da27c3d71f1cad8838128be595ce532371fa018ade.js): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-regular.woff2): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-500.woff2): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Medium.woff2): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-SemiBold.woff2): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Regular.woff2): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-600.woff2): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/web/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://player.vimeo.com/progressive_redirect/playback/561360326/rendition/720p/file.mp4?loc=external&signature=f3bc1da052bc98f1ddf0faa2e68edb8256c8680a1505f72916d8fd98381f9086): serving 302 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/api/profile): serving 200 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/canspam): serving 403 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/17 16:42:21 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/17 16:42:24 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): serving 200 response
+2025/06/17 16:42:24 ServeHTTP(https://grafana.com/media/docs/icons/grafana-cloud-provider-2.svg): couldn't find matching request: not found
+2025/06/17 16:42:25 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/17 16:42:26 ServeHTTP(https://grafana.com/contact/): couldn't find matching request: not found
+2025/06/17 16:42:26 ServeHTTP(https://google-ohttp-relay-safebrowsing.fastly-edge.com/): serving 200 response
+signal: interrupt

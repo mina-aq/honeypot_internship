@@ -1,0 +1,97 @@
+2025/06/17 14:50:11 Loading cert from wpr_cert.pem
+2025/06/17 14:50:11 Loading key from wpr_key.pem
+2025/06/17 14:50:11 Loading cert from ecdsa_cert.pem
+2025/06/17 14:50:11 Loading key from ecdsa_key.pem
+2025/06/17 14:50:11 Opened archive /workdir/archive.wprgo
+2025/06/17 14:50:11 Loading script from deterministic.js
+2025/06/17 14:50:11 Use Ctrl-C to exit.
+2025/06/17 14:50:11 Starting server on http://127.0.0.1:8080
+2025/06/17 14:50:11 Starting server on https://127.0.0.1:8081
+2025/06/17 14:50:47 ScriptInjector(https://grafana.com/): succesfully injected
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/): serving 200, 56581 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/inter.css): serving 200, 401 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/font-awesome/css/font-awesome.min.css): serving 200, 7050 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/dm-sans.css): serving 200, 456 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/themes.min.css): serving 200, 908 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/tw-styles.min.css): serving 200, 11444 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-magic-hat_1584x837.png): serving 200, 29169 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-periodic-o11y-table-2_1584x837.png): serving 200, 29920 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/at.js): serving 200, 31475 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/poppins.css): serving 200, 509 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/outfit.css): serving 200, 311 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/shared.min.css): serving 200, 53574 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/app.min.css): serving 200, 203435 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-dashboard-concept_1584x837.png): serving 200, 39431 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/banner.5719f285e8a67d681acba48317dde80a99c6ee568b21693b0aa0b1c561d3d175.js): serving 200, 10392 bytes
+2025/06/17 14:50:47 ServeHTTP(https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard): serving 200, 43 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/faro.93aa1d4f89acbe79afbf27f65915fd2c1fe3a0ee76faf94aea866f57890804b9.js): serving 200, 29201 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/hero/icons/grafana-icon-tone-serious_21x21.png): serving 200, 1191 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/hero/icons/grafana-icon-tone-fun_21x21.png): serving 200, 1329 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/shared.061a61b1c9eb1a5d0a7b56da27c3d71f1cad8838128be595ce532371fa018ade.js): serving 200, 5760 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-block.png): serving 200, 38131 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/arrow-transfer.svg): serving 200, 2768 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/arrow-gray.svg): serving 200, 488 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/observability-icon.svg): serving 200, 1125 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/key-capabilities-icon.svg): serving 200, 2006 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/grot-chat-3.svg): serving 200, 7580 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/data-visualization-icon-black.svg): serving 200, 1231 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/data-transfer-v2.svg): serving 200, 4442 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/building-blocks-icon.svg): serving 200, 1383 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/testing-icon.svg): serving 200, 2404 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-incident.svg): serving 200, 3250 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-security.svg): serving 200, 1538 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-data-visualization.svg): serving 200, 1163 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/incident-icon.svg): serving 200, 1389 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-cost-management.svg): serving 200, 1273 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-configuration.svg): serving 200, 879 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/loki.svg): serving 200, 6493 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/pyroscope-logo.svg): serving 200, 7628 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-AI-ML-insights.svg): serving 200, 2940 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/logos/logo-mimir.svg): serving 200, 1129 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/icons/blog-icon.svg): serving 200, 9919 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/grafana2.svg): serving 200, 9435 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/synthetic-monitoring/synthetic-monitoring-orange-icon.svg): serving 200, 2844 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/application-observability.svg): serving 200, 1847 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/k6/GrafanaLogo_k6_orange_icon.svg): serving 200, 2446 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/asserts/asserts-icon.svg): serving 200, 787 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/frontend-observability/faro-icon.svg): serving 200, 1381 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-infrastructure.svg): serving 200, 1971 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/grafana-tempo.svg): serving 200, 1304 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-oncall.svg): serving 200, 2477 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-slo.svg): serving 200, 2753 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/icons/icon-check-green.svg): serving 200, 499 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-icon-alerting-orange-sm.svg): serving 200, 1657 bytes
+2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/app.ee05e03efc9ffa0d6dbdf4f4610ae23d2e43863f529b629f7260c4e62f487ce9.js): serving 200, 291734 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/diagram/data-visualization-bg.png): serving 200, 146210 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_4.png): serving 200, 356285 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_5.png): serving 200, 348348 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_6.png): serving 200, 327943 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-regular.woff2): serving 200, 17156 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-600.woff2): serving 200, 18096 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-500.woff2): serving 200, 17996 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Regular.woff2): serving 200, 20588 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Medium.woff2): serving 200, 19716 bytes
+2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-SemiBold.woff2): serving 200, 20680 bytes
+2025/06/17 14:50:49 ServeHTTP(https://grafana.com/web/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0): serving 200, 77160 bytes
+2025/06/17 14:50:50 ServeHTTP(https://player.vimeo.com/progressive_redirect/playback/561360326/rendition/720p/file.mp4?loc=external&signature=f3bc1da052bc98f1ddf0faa2e68edb8256c8680a1505f72916d8fd98381f9086): serving 302, 0 bytes
+2025/06/17 14:50:50 ServeHTTP(https://grafana.com/api/profile): serving 200, 24 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/events/obscon/2025/grafana-obscon2025-promo-logo-black.svg): serving 200, 27372 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-play-icon.svg): serving 200, 179 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/static/img/grafana/showcase_visualize.jpg): serving 200, 133795 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202, 0 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-delltechnologies-mono-v2.svg): serving 200, 5955 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-asos-mono-v2.svg): serving 200, 3966 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/atlassian-logo-vert.svg): serving 200, 4001 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-optum-mono-v2.svg): serving 200, 2037 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-sky-mono-v2.svg): serving 200, 1731 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/roblox-logo-mono.svg): serving 200, 1466 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-kushi-mono-v2.svg): serving 200, 9529 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-DHLexpress-mono-v2.svg): serving 200, 4224 bytes
+2025/06/17 14:50:51 ServeHTTP(https://vod-progressive-ak.vimeocdn.com/exp=1750175438~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2272%2F22%2F561360326%2F2654687008.mp4~hmac=a163daa90aa41e3625d25391da606b13cf5801d5e641499188ee74295005f315/vimeo-prod-skyfire-std-us/01/2272/22/561360326/2654687008.mp4?filename=file.mp4): serving 206, 1227545 bytes
+2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-wellsfargo-mono-v2.svg): serving 200, 6003 bytes
+2025/06/17 14:50:52 ServeHTTP(https://grafana.com/canspam): serving 403, 12 bytes
+2025/06/17 14:50:52 ServeHTTP(https://grafana.com/static/assets/img/fav32.png): serving 200, 1118 bytes
+2025/06/17 14:50:53 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202, 0 bytes
+2025/06/17 14:50:53 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202, 0 bytes
+2025/06/17 14:52:08 Shutting down
+2025/06/17 14:52:08 Writing archive file to /workdir/archive.wprgo
