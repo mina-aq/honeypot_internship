@@ -1,94 +1,255 @@
-2025/06/18 08:45:18 Loading cert from /workdir/cert.pem
-2025/06/18 08:45:18 Loading key from /workdir/key.pem
-2025/06/18 08:45:18 Loading archive file from /workdir/archive.wprgo
-2025/06/18 08:45:18 Opened archive /workdir/archive.wprgo
-2025/06/18 08:45:18 Loading script from deterministic.js
-2025/06/18 08:45:18 Use Ctrl-C to exit.
-2025/06/18 08:45:18 Starting server on http://127.0.0.1:8080
-2025/06/18 08:45:18 Starting server on https://127.0.0.1:8081
-2025/06/18 08:45:41 ServeHTTP(http://clients2.google.com/time/1/current?cup2key=9:GP4pgMhE-2SCPZEAmLxQ-b5vlNtKAFfZfjs5vsrEanY&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855): couldn't find matching request: not found
-2025/06/18 08:45:41 http: TLS handshake error from 127.0.0.1:58228: EOF
-2025/06/18 08:45:41 http: TLS handshake error from 127.0.0.1:58224: EOF
-2025/06/18 08:45:44 ServeHTTP(https://clients2.google.com/service/update2/crx?os=linux&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=137.0.7151.103&lang=en-US&acceptformat=crx3,puff&x=id%3Dghbmnnjooekpmoecnnnilnnbdlolhkhi%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1): couldn't find matching request: not found
-2025/06/18 08:45:44 ServeHTTP(https://clientservices.googleapis.com/chrome-variations/seed?osname=linux&channel=stable&milestone=137): couldn't find matching request: not found
-2025/06/18 08:45:44 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:45:44 ServeHTTP(https://redirector.gvt1.com/edgedl/chrome/dict/en-us-10-1.bdic): couldn't find matching request: not found
-2025/06/18 08:45:46 ServeHTTP(https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard): serving 200 response
-2025/06/18 08:45:46 ScriptInjector(https://stackoverflow.com/questions): succesfully injected
-2025/06/18 08:45:46 ServeHTTP(https://stackoverflow.com/questions): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Shared/stacks.css?v=3f4bdc9bb40b): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/otSDKStub.js): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=6839c0a3a27c): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Shared/Channels/channels.css?v=2c98e83b4da0): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/stub.en.js?v=9897abb98316): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=50aa961744df): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/1913.en.js?v=5c5b30d0ef5f): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/questions/list.en.js?v=c4fb7b6fad48): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/svelte.en.js?v=386438d13fba): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/stacks-svelte.en.js?v=8d233933e909): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/8901.en.js?v=9ff34567d3a5): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/islands/signup-modal.en.js?v=e779c89f026d): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/islands/one-tap.en.js?v=84e66aca603c): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/1130.en.js?v=70fcdc9ce0b0): serving 200 response
-2025/06/18 08:45:47 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/9764.en.js?v=f95a15cc754c): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://cdn.sstatic.net/Js/islands/homepage-wizard.en.js?v=a9319a4a22a7): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://cdn.sstatic.net/Img/teams/teams-promo.svg?v=e507948b81bf): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://cdn.sstatic.net/Js/questions/userQuestionList.en.js?v=e0424c29b0d2): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://cdn.sstatic.net/Js/modules/cookie-consent.en.js?v=36bebc18e04f): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://www.gravatar.com/avatar/197868f15f9c804f3f282b969f05c9a8?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://www.gravatar.com/avatar/f510c79739cf7bd5a963affeb2a62d95?s=32&d=identicon&r=PG): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://www.gravatar.com/avatar/a3625ce08ac86074b6eeb2a3cc714d43?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh3.googleusercontent.com/a-/AOh14GhMhO-c4A0LuTClX-E6T_KLDzVEehdHAe5-bI4c=k-s32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh3.googleusercontent.com/a-/AOh14Gjaj52FUxqXEKq-oZONKjg_CbDnFsMUOUbvLOB21A=k-s32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh3.googleusercontent.com/a/AATXAJxvKAbyCgIBDCP2iDdUQ-S7dfKqoFsq6fQFl32j=k-s32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh3.googleusercontent.com/a/AGNmyxaHl58aG-HTSIJg5R35Cyt9bwYIump2TvUksk0ovQ=k-s32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://i.sstatic.net/RZcEN.jpg?s=32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://i.sstatic.net/GsYdHHBQ.jpg?s=32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh5.googleusercontent.com/-Lflg9P2zN3A/AAAAAAAAAAI/AAAAAAAAACE/mUadlMuK54o/s32-rj/photo.jpg): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh6.googleusercontent.com/--e9_xBDVGj4/AAAAAAAAAAI/AAAAAAAAAAs/4TZ6Eo5vSJ4/s32-rj/photo.jpg): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://i.sstatic.net/ZcaOC.png?s=32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://lh3.googleusercontent.com/a/ALm5wu28jVqeYvkm_e3d9SDZBoWKk1beBfp06VQXEwOf=k-s32): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://www.gravatar.com/avatar/e333a36aa54235e5d81de22744af9213?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://www.gravatar.com/avatar/d3457d642c58e0f4a0e474004e40bf0b?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ): serving 200 response
-2025/06/18 08:45:48 ServeHTTP(https://cdn.sstatic.net/Img/unified/sprites.svg?v=fcc0ea44ba27): serving 200 response
-2025/06/18 08:45:49 ServeHTTP(https://pagead2.googlesyndication.com/tag/js/gpt.js): serving 200 response
-2025/06/18 08:45:49 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/subcommunities/azure.svg?v=acd37945b78d): serving 200 response
-2025/06/18 08:45:49 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/subcommunities/mobile-dev.svg?v=f6e72ddb4e44): serving 200 response
-2025/06/18 08:45:49 ServeHTTP(https://cdn.sstatic.net/Img/favicons-sprite16.png?v=eb322c33ef18): serving 200 response
-2025/06/18 08:45:49 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/subcommunities/ci-cd.svg?v=3358d7e37d46): serving 200 response
-2025/06/18 08:45:49 ServeHTTP(https://cdn.cookielaw.org/consent/c3d9f1e3-55f3-4eba-b268-46cee4c6789c/c3d9f1e3-55f3-4eba-b268-46cee4c6789c.json): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202506120101/pubads_impl.js): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/icon-48.png?v=b7e36f88ff92): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://accounts.google.com/gsi/client): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/jsd/main.js): serving 302 response
-2025/06/18 08:45:50 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/otBannerSdk.js): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTM3LjAuNzE1MS4xMDMSIAmMZKUvP0PLwRIFDSlUoSUSBQ2qkReCIR8oDO5bUFCnEiAJLafifM9I2kgSBQ14bxIZEgUNzkFMeiGAD4gO0l_pHRIZCXVO1QyhK0euEgUN47YI-yEwdfcQOR3TAA==?alt=proto): couldn't find matching request: not found
-2025/06/18 08:45:50 ServeHTTP(https://cdn.sstatic.net/Js/full-anon.en.js?v=9478f2e36906): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/180b6a431d85/main.js?): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/otTCF.js): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://cdn.cookielaw.org/vendorlist/iab2V2Data.json): serving 200 response
-2025/06/18 08:45:50 ServeHTTP(https://cdn.cookielaw.org/consent/c3d9f1e3-55f3-4eba-b268-46cee4c6789c/018f2f76-a8f7-7543-9baa-a6a9c3948824/en.json): serving 200 response
-2025/06/18 08:45:51 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:45:51 ServeHTTP(https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/jsd/r/0.9814970336355299:1750230678:1U--CwJAMd-C8ThrS2uiJl5pOuK_ajle5YL9YHaqWus/951948609b56b5d3): serving 200 response
-2025/06/18 08:45:51 ServeHTTP(https://region1.google-analytics.com/g/collect?v=2&tid=G-WCZ03SZFCQ&gtm=45je56g0v891602898za200&_p=1750233871150&gcs=G100&gcd=13q3qPl2l5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104718208~104736445~104736447~104757984&cid=777389080.1750233871&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.103%7CChromium%3B137.0.7151.103%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.11.0&uaw=0&are=1&frm=0&pscdl=denied&_s=1&sid=1750233871&sct=1&seg=0&dl=https%3A%2F%2Fstackoverflow.com%2Fquestions&dt=Newest%20Questions%20-%20Stack%20Overflow&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.requestid=09854768-3787-48c9-839a-0aeb79158fb8&ep.routename=Questions%2FList&ep.ads_blocked=false&tfd=12972): serving 204 response
-2025/06/18 08:45:51 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/assets/otFloatingRoundedCorner.json): serving 200 response
-2025/06/18 08:45:51 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/assets/otCommonStyles.css): serving 200 response
-2025/06/18 08:45:51 ServeHTTP(https://accounts.google.com/gsi/style): serving 200 response
-2025/06/18 08:45:51 ServeHTTP(https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTM3LjAuNzE1MS4xMDMSJwkXOOvqe9D1oxIFDSlUoSUSBQ2qkReCEgUNkWGVTiEDs44XP4jDuhIZCXVO1QyhK0euEgUN47YI-yEwdfcQOR3TAA==?alt=proto): couldn't find matching request: not found
-2025/06/18 08:45:51 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196): serving 200 response
-2025/06/18 08:45:51 ServeHTTP(https://pagead2.googlesyndication.com/pagead/managed/dict/m202506170101/gpt): serving 200 response
-2025/06/18 08:46:40 ServeHTTP(https://update.googleapis.com/service/update2/json?cup2key=15:u2yANSVsc_CWqy02KGezvZ_3wXV4lzcf3G_rBWXfm_4&cup2hreq=c8e5efe5abfcc8fac8143ff01a18946f5cc786b3568896a382a983a772f86e9e): couldn't find matching request: not found
-2025/06/18 08:46:40 ServeHTTP(http://update.googleapis.com/service/update2/json?cup2key=15:D22tsv9G-0dc9GsfnYN8sh7XaOo6KJMrMcS2qz4eOds&cup2hreq=a31e0092429c370492c25e991c9de50b62bd6172fecf68fe21100f6f87067e79): couldn't find matching request: not found
-2025/06/18 08:46:42 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:47:42 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:48:48 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:50:21 ServeHTTP(https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTM3LjAuNzE1MS4xMDMaDAgFEAIiBCABIAIoARoMCBAQAiIEIAEgAigBGgwIARACIgQgASACKAEaDAgDEAIiBCABIAIoARoMCA4QAiIEIAEgAigBGgwIARAIIgQgASACKAQaDAgPEAIiBCABIAIoARoMCAcQAiIEIAEgAigBGgwICRACIgQgASACKAEaDAgIEAIiBCABIAIoARoMCA0QAiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:51:28 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:52:42 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:53:42 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:54:20 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:54:42 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
-2025/06/18 08:57:07 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+go: downloading github.com/urfave/cli/v2 v2.25.7
+go: downloading golang.org/x/net v0.36.0
+go: downloading github.com/tdewolff/minify/v2 v2.23.8
+go: downloading github.com/cpuguy83/go-md2man/v2 v2.0.2
+go: downloading github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673
+go: downloading github.com/tdewolff/parse/v2 v2.8.1
+go: downloading golang.org/x/text v0.22.0
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+2025/06/18 14:51:06 Loading cert from /workdir/cert.pem
+2025/06/18 14:51:06 Loading key from /workdir/key.pem
+2025/06/18 14:51:06 Loading archive file from /workdir/archive.wprgo
+2025/06/18 14:51:07 Opened archive /workdir/archive.wprgo
+2025/06/18 14:51:07 Loading script from deterministic.js
+2025/06/18 14:51:07 Use Ctrl-C to exit.
+2025/06/18 14:51:07 Starting server on https://[::]:8081
+2025/06/18 14:51:07 Starting server on http://[::]:8080
+2025/06/18 14:52:32 ServeHTTP(http://clients2.google.com/time/1/current?cup2key=9:XfIx6oSKEoFwSdUDCaAqp2ZUxwN-PkYP8gKYkjBcQUM&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855): couldn't find matching request: not found
+2025/06/18 14:52:32 http: TLS handshake error from 172.17.0.1:58214: EOF
+2025/06/18 14:52:36 ServeHTTP(https://redirector.gvt1.com/edgedl/chrome/dict/en-us-10-1.bdic): couldn't find matching request: not found
+2025/06/18 14:52:36 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:52:36 ServeHTTP(https://clientservices.googleapis.com/chrome-variations/seed?osname=linux&channel=stable&milestone=137): couldn't find matching request: not found
+2025/06/18 14:52:36 ServeHTTP(https://clients2.google.com/service/update2/crx?os=linux&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=137.0.7151.68&lang=en-US&acceptformat=crx3,puff&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1): couldn't find matching request: not found
+2025/06/18 14:52:36 ServeHTTP(https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard): serving 200 response
+2025/06/18 14:52:36 ScriptInjector(https://grafana.com/): succesfully injected
+2025/06/18 14:52:36 ServeHTTP(https://grafana.com/): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/fonts/inter.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/fonts/outfit.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/fonts/poppins.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/app.min.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/shared.min.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/fonts/font-awesome/css/font-awesome.min.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/fonts/dm-sans.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/tw-styles.min.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-periodic-o11y-table-2_1584x837.png): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/web/themes.min.css): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-magic-hat_1584x837.png): serving 200 response
+2025/06/18 14:52:38 ServeHTTP(https://grafana.com/at.js): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-dashboard-concept_1584x837.png): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/web/banner.5719f285e8a67d681acba48317dde80a99c6ee568b21693b0aa0b1c561d3d175.js): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/web/faro.7a7db6e85efe0e7b8853cdd34313aaca9edd1100a015edaa102d54f1f487185a.js): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/grot-chat-3.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/hero/icons/grafana-icon-tone-serious_21x21.png): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/web/app.ee05e03efc9ffa0d6dbdf4f4610ae23d2e43863f529b629f7260c4e62f487ce9.js): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/hero/icons/grafana-icon-tone-fun_21x21.png): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/web/shared.061a61b1c9eb1a5d0a7b56da27c3d71f1cad8838128be595ce532371fa018ade.js): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-block.png): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/incident-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/arrow-gray.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/arrow-transfer.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/data-visualization-icon-black.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/data-transfer-v2.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/key-capabilities-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/building-blocks-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-data-visualization.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/k6/GrafanaLogo_k6_orange_icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/testing-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/synthetic-monitoring/synthetic-monitoring-orange-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-cost-management.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-AI-ML-insights.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-security.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/asserts/asserts-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-configuration.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/frontend-observability/faro-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/menu/loki.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/menu/application-observability.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/logo-infrastructure.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/pyroscope-logo.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-slo.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/menu/grafana2.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-oncall.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/home/diagram/observability-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/icons/blog-icon.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-icon-alerting-orange-sm.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-incident.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/menu/grafana-tempo.svg): serving 200 response
+2025/06/18 14:52:40 ServeHTTP(https://grafana.com/static/img/logos/logo-mimir.svg): serving 200 response
+2025/06/18 14:52:41 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-regular.woff2): serving 200 response
+2025/06/18 14:52:41 ServeHTTP(https://grafana.com/static/img/icons/icon-check-green.svg): serving 200 response
+2025/06/18 14:52:41 ServeHTTP(https://grafana.com/media/home/diagram/data-visualization-bg.png): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Medium.woff2): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-600.woff2): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-SemiBold.woff2): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-500.woff2): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Regular.woff2): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_4.png): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_5.png): serving 200 response
+2025/06/18 14:52:42 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_6.png): serving 200 response
+2025/06/18 14:52:43 ServeHTTP(https://grafana.com/web/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0): serving 200 response
+2025/06/18 14:52:44 ServeHTTP(https://player.vimeo.com/progressive_redirect/playback/561360326/rendition/720p/file.mp4?loc=external&signature=f3bc1da052bc98f1ddf0faa2e68edb8256c8680a1505f72916d8fd98381f9086): serving 302 response
+2025/06/18 14:52:44 ServeHTTP(https://vod-progressive-ak.vimeocdn.com/exp=1750261532~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2272%2F22%2F561360326%2F2654687008.mp4~hmac=aa02d1f7ef743d68fd29b95913bbc9cb341b69200fdcc790d2df41ebcb6a90ec/vimeo-prod-skyfire-std-us/01/2272/22/561360326/2654687008.mp4?filename=file.mp4): serving 206 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/api/profile): serving 200 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/media/events/obscon/2025/grafana-obscon2025-promo-logo-black.svg): serving 200 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-play-icon.svg): serving 200 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/static/img/grafana/showcase_visualize.jpg): serving 200 response
+2025/06/18 14:52:45 ServeHTTP(https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTM3LjAuNzE1MS42OBIZCSH2C75dNf8SEgUNg6hbPSGHBr9Dzxw59RIgCbyNWrM3mDg3EgUNkWGVThIFDZFhlU4hgBpfcqEq2As=?alt=proto): couldn't find matching request: not found
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/canspam): serving 403 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:52:45 ServeHTTP(https://grafana.com/static/assets/img/fav32.png): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/logo-delltechnologies-mono-v2.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/atlassian-logo-vert.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/logo-optum-mono-v2.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/logo-sky-mono-v2.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/logo-asos-mono-v2.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/roblox-logo-mono.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/logo-kushi-mono-v2.svg): serving 200 response
+2025/06/18 14:52:48 ServeHTTP(https://grafana.com/media/images/logos/logo-DHLexpress-mono-v2.svg): serving 200 response
+2025/06/18 14:52:51 ServeHTTP(https://grafana.com/media/images/logos/logo-wellsfargo-mono-v2.svg): serving 200 response
+2025/06/18 14:53:18 ServeHTTP(https://clientservices.googleapis.com/uma/v2): couldn't find matching request: not found
+2025/06/18 14:53:19 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:53:23 ServeHTTP(https://grafana.com/ABOUT): couldn't find matching request: not found
+2025/06/18 14:53:25 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:53:30 ServeHTTP(https://grafana.com/about): couldn't find matching request: not found
+2025/06/18 14:53:31 ServeHTTP(https://update.googleapis.com/service/update2/json?cup2key=15:cKwzEXMz8eX8jSCd9MVTbsBGqKdswXwCfAIkradlwcM&cup2hreq=d3b2be621d7d864e3bd371c99d93ea1871eb2b886755b1a6e3c64fe00e05df10): couldn't find matching request: not found
+2025/06/18 14:53:31 ServeHTTP(http://update.googleapis.com/service/update2/json?cup2key=15:DNZxhAynEbXpIPIBso0Qwy6JtLO6Tou_ZOiKmu9OXZU&cup2hreq=5b555940cebcaa59b04c27a5f6fc675c021085f5d80e956407c6f2bc3ac469d2): couldn't find matching request: not found
+2025/06/18 14:53:33 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:53:34 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:53:38 ServeHTTP(https://grafana.com/about/careers): couldn't find matching request: not found
+2025/06/18 14:53:52 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:53:54 ScriptInjector(https://grafana.com/about/careers/?plcmt=mobile-nav&cta=career): succesfully injected
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/about/careers/?plcmt=mobile-nav&cta=career): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/inter.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/outfit.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/font-awesome/css/font-awesome.min.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/poppins.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/dm-sans.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/app.min.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/shared.min.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/tw-styles.min.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/themes.min.css): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/media/about/careers/crn-logo.svg): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/media/about/careers/gartner-magic-quadrant.png): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/faro.7a7db6e85efe0e7b8853cdd34313aaca9edd1100a015edaa102d54f1f487185a.js): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/banner.5719f285e8a67d681acba48317dde80a99c6ee568b21693b0aa0b1c561d3d175.js): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/media/about/careers/forbes-logo.svg): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/app.ee05e03efc9ffa0d6dbdf4f4610ae23d2e43863f529b629f7260c4e62f487ce9.js): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/shared.061a61b1c9eb1a5d0a7b56da27c3d71f1cad8838128be595ce532371fa018ade.js): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-SemiBold.woff2): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-regular.woff2): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-500.woff2): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Regular.woff2): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-600.woff2): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/web/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/api/profile): serving 200 response
+2025/06/18 14:53:54 ServeHTTP(https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTM3LjAuNzE1MS42OBIZCSH2C75dNf8SEgUNg6hbPSFOazcmSSKFmxIZCR8iC-xod5RREgUNkWGVTiFPkFyhmp0-Ig==?alt=proto): couldn't find matching request: not found
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:53:54 ServeHTTP(https://grafana.com/canspam): serving 403 response
+2025/06/18 14:53:55 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:53:56 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:54:08 ScriptInjector(https://grafana.com/solutions/visualization/?plcmt=nav-solutions-cta3): succesfully injected
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/solutions/visualization/?plcmt=nav-solutions-cta3): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/adobe-analytics/adobe-analytics-logo.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/amazon-aurora/amazon-aurora-logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/fonts/inter.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/fonts/font-awesome/css/font-awesome.min.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/fonts/outfit.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/fonts/dm-sans.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/app.min.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/shared.min.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/tw-styles.min.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/themes.min.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/fonts/poppins.css): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/amazon-dynamodb/dynamodb-logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/dlopes7-appdynamics-datasource/versions/latest/logos/small): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/atlassian-statuspage/atlassian-statuspage-logo.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/banner.5719f285e8a67d681acba48317dde80a99c6ee568b21693b0aa0b1c561d3d175.js): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/faro.7a7db6e85efe0e7b8853cdd34313aaca9edd1100a015edaa102d54f1f487185a.js): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/app.ee05e03efc9ffa0d6dbdf4f4610ae23d2e43863f529b629f7260c4e62f487ce9.js): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/web/shared.061a61b1c9eb1a5d0a7b56da27c3d71f1cad8838128be595ce532371fa018ade.js): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-icon-breadcrumb-arrow-gray.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/azure-cosmos-db/azure-cosmos-db-logo-blue.jpg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/catchpoint/catchpoint-logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/cloudflare-monitor/cloudflare-icon-2.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/cockroachdb/Cockroach_Labs_Logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/oracledb/Oracle-O-logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/grafana-salesforce-datasource/versions/1.0.0/logos/large): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/images/logos/logo-mongodb.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/grafana-jira-datasource/versions/latest/logos/small): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/netlify/netlify-logo.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/databricks/databricks-logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/dynatrace/dynatrace-icon.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/static/img/logos/gitlab.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/grafana-datadog-datasource/versions/latest/logos/small): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/static/img/logos/honeycomb-lg.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/pagerduty/pagerduty-logo.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/static/img/logos/newrelic.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/images/logos/sap.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/splunk/Splunk-logo-2square.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/media/solutions/sumo-logic/sumologic-logo.svg): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/grafana-vercel-datasource/versions/0.0.2-preview/logos/large): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/grafana-servicenow-datasource/versions/latest/logos/small): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/static/img/logos/wavefront-logo-lg.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/static/img/logos/snowflake-logo-lg.png): serving 200 response
+2025/06/18 14:54:08 ServeHTTP(https://grafana.com/api/plugins/grafana-splunk-datasource/versions/latest/logos/small): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/media/solutions/solutions-bg-2.png): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Regular.woff2): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/web/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-regular.woff2): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-500.woff2): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-600.woff2): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Medium.woff2): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/api/profile): serving 200 response
+2025/06/18 14:54:09 ServeHTTP(https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTM3LjAuNzE1MS42OBIZCSH2C75dNf8SEgUNg6hbPSGAGOLxx6ProxIgCbyNWrM3mDg3EgUNkWGVThIFDZFhlU4hel2IrAaW4Po=?alt=proto): couldn't find matching request: not found
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/canspam): serving 403 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:54:09 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:54:10 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202 response
+2025/06/18 14:54:29 ServeHTTP(https://grafana.com/api/plugins/mobile-nav): serving 404 response
+2025/06/18 14:54:29 ServeHTTP(https://grafana.com/favicon.ico): couldn't find matching request: not found
+2025/06/18 14:54:29 ServeHTTP(https://beacons.gcp.gvt2.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:34 ServeHTTP(https://safebrowsingohttpgateway.googleapis.com/v1/ohttp/hpkekeyconfig?key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:54:40 ServeHTTP(https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&gs_rn=42&sugkey=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:54:40 ServeHTTP(https://beacons.gvt2.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:42 ScriptInjector(https://grafana.com/auth/sign-in?plcmt=mobile-nav&cta=myaccount): succesfully injected
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/sign-in?plcmt=mobile-nav&cta=myaccount): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/static/js/main.2ab3e4f6.js): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/static/css/main.d1125c4a.css): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://beacons2.gvt2.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/favicon.ico): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/canspam): serving 403 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/api/profile): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://beacons3.gvt2.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/api/plugins/mobile-nav): serving 404 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/img/icons/google.svg): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/img/icons/microsoft.svg): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/img/icons/github-for-light-theme.svg): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/img/icons/person.svg): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/img/icons/amazon-for-light-theme.svg): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/img/grafana-cloud-logo-for-light-theme.svg): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://beacons4.gvt2.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/static/media/Inter-Medium.a6ca36dde32b3a1d0fd4.woff2): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://grafana.com/auth/static/media/Inter-Regular.222064f2a764069868f4.woff2): serving 200 response
+2025/06/18 14:54:42 ServeHTTP(https://beacons5.gvt2.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:42 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 204 response
+2025/06/18 14:54:42 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:42 ServeHTTP(https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTM3LjAuNzE1MS42OBIZCdj_jhejqYm-EgUNKEstiSFOZYz8FvvjyA==?alt=proto): couldn't find matching request: not found
+2025/06/18 14:54:42 ServeHTTP(https://beacons5.gvt3.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:42 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:42 ServeHTTP(https://clients2.google.com/domainreliability/upload): couldn't find matching request: not found
+2025/06/18 14:54:43 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:45 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:46 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:47 ServeHTTP(https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTM3LjAuNzE1MS42OBoMCAUQAiIEIAEgAigBGgwIEBACIgQgASACKAEaDAgBEAIiBCABIAIoARoMCAMQAiIEIAEgAigBGgwIDhACIgQgASACKAEaDAgBEAgiBCABIAIoBBoMCA8QAiIEIAEgAigBGgwIBxACIgQgASACKAEaDAgJEAIiBCABIAIoARoMCAgQAiIEIAEgAigBGgwIDRACIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBqJZh-7pA44blAaAkH6490hUFOwX0KCYM): couldn't find matching request: not found
+2025/06/18 14:54:48 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 204 response
+2025/06/18 14:54:48 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:49 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:51 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:52 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:54 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 204 response
+2025/06/18 14:54:54 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:55 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:57 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
+2025/06/18 14:54:58 ServeHTTP(https://faro-collector-ops-eu-south-0.grafana-ops.net/collect/9f5e4d848988ba008f1458881384725a): serving 202 response
