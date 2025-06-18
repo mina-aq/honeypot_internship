@@ -20,7 +20,7 @@ echo "Setting Web Page Replay in record mode..."
 cd /opt/catapult/web_page_replay_go/
 #cd /home/mina/Desktop/stage/catapult/web_page_replay_go/
 go run src/wpr.go installroot --https_cert_file $CERT --https_key_file $KEY 
-go run src/wpr.go record --http_port=8080 --https_port=8081 $current_dir/archive.wprgo > $current_dir/wpr.log 2>&1 &
+go run src/wpr.go record --http_port=8080 --https_port=8081 --https_cert_file $CERT --https_key_file $KEY $current_dir/archive.wprgo > $current_dir/wpr.log 2>&1 &
 WPR_PID=$!
 sleep 2
 

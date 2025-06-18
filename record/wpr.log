@@ -1,97 +1,81 @@
-2025/06/17 14:50:11 Loading cert from wpr_cert.pem
-2025/06/17 14:50:11 Loading key from wpr_key.pem
-2025/06/17 14:50:11 Loading cert from ecdsa_cert.pem
-2025/06/17 14:50:11 Loading key from ecdsa_key.pem
-2025/06/17 14:50:11 Opened archive /workdir/archive.wprgo
-2025/06/17 14:50:11 Loading script from deterministic.js
-2025/06/17 14:50:11 Use Ctrl-C to exit.
-2025/06/17 14:50:11 Starting server on http://127.0.0.1:8080
-2025/06/17 14:50:11 Starting server on https://127.0.0.1:8081
-2025/06/17 14:50:47 ScriptInjector(https://grafana.com/): succesfully injected
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/): serving 200, 56581 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/inter.css): serving 200, 401 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/font-awesome/css/font-awesome.min.css): serving 200, 7050 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/dm-sans.css): serving 200, 456 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/themes.min.css): serving 200, 908 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/tw-styles.min.css): serving 200, 11444 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-magic-hat_1584x837.png): serving 200, 29169 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-periodic-o11y-table-2_1584x837.png): serving 200, 29920 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/at.js): serving 200, 31475 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/poppins.css): serving 200, 509 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/fonts/outfit.css): serving 200, 311 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/shared.min.css): serving 200, 53574 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/app.min.css): serving 200, 203435 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/images/graphics/grafana-graphic-dashboard-concept_1584x837.png): serving 200, 39431 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/banner.5719f285e8a67d681acba48317dde80a99c6ee568b21693b0aa0b1c561d3d175.js): serving 200, 10392 bytes
-2025/06/17 14:50:47 ServeHTTP(https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard): serving 200, 43 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/faro.93aa1d4f89acbe79afbf27f65915fd2c1fe3a0ee76faf94aea866f57890804b9.js): serving 200, 29201 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/hero/icons/grafana-icon-tone-serious_21x21.png): serving 200, 1191 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/hero/icons/grafana-icon-tone-fun_21x21.png): serving 200, 1329 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/shared.061a61b1c9eb1a5d0a7b56da27c3d71f1cad8838128be595ce532371fa018ade.js): serving 200, 5760 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-block.png): serving 200, 38131 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/arrow-transfer.svg): serving 200, 2768 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/arrow-gray.svg): serving 200, 488 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/observability-icon.svg): serving 200, 1125 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/key-capabilities-icon.svg): serving 200, 2006 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/grot-chat-3.svg): serving 200, 7580 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/data-visualization-icon-black.svg): serving 200, 1231 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/data-transfer-v2.svg): serving 200, 4442 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/building-blocks-icon.svg): serving 200, 1383 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/testing-icon.svg): serving 200, 2404 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-incident.svg): serving 200, 3250 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-security.svg): serving 200, 1538 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-data-visualization.svg): serving 200, 1163 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/incident-icon.svg): serving 200, 1389 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-cost-management.svg): serving 200, 1273 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-configuration.svg): serving 200, 879 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/loki.svg): serving 200, 6493 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/pyroscope-logo.svg): serving 200, 7628 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-AI-ML-insights.svg): serving 200, 2940 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/logos/logo-mimir.svg): serving 200, 1129 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/icons/blog-icon.svg): serving 200, 9919 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/grafana2.svg): serving 200, 9435 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/synthetic-monitoring/synthetic-monitoring-orange-icon.svg): serving 200, 2844 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/application-observability.svg): serving 200, 1847 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/k6/GrafanaLogo_k6_orange_icon.svg): serving 200, 2446 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/asserts/asserts-icon.svg): serving 200, 787 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/frontend-observability/faro-icon.svg): serving 200, 1381 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/home/diagram/logo-infrastructure.svg): serving 200, 1971 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/menu/grafana-tempo.svg): serving 200, 1304 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-oncall.svg): serving 200, 2477 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/media/docs/grafana-cloud/alerting-and-irm/grafana-icon-slo.svg): serving 200, 2753 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/img/icons/icon-check-green.svg): serving 200, 499 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-icon-alerting-orange-sm.svg): serving 200, 1657 bytes
-2025/06/17 14:50:47 ServeHTTP(https://grafana.com/web/app.ee05e03efc9ffa0d6dbdf4f4610ae23d2e43863f529b629f7260c4e62f487ce9.js): serving 200, 291734 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/diagram/data-visualization-bg.png): serving 200, 146210 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_4.png): serving 200, 356285 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_5.png): serving 200, 348348 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/media/home/workflows/workflow_blur_6.png): serving 200, 327943 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-regular.woff2): serving 200, 17156 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-600.woff2): serving 200, 18096 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/inter/inter-v3-latin-500.woff2): serving 200, 17996 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Regular.woff2): serving 200, 20588 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-Medium.woff2): serving 200, 19716 bytes
-2025/06/17 14:50:48 ServeHTTP(https://grafana.com/web/fonts/outfit/Outfit-SemiBold.woff2): serving 200, 20680 bytes
-2025/06/17 14:50:49 ServeHTTP(https://grafana.com/web/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0): serving 200, 77160 bytes
-2025/06/17 14:50:50 ServeHTTP(https://player.vimeo.com/progressive_redirect/playback/561360326/rendition/720p/file.mp4?loc=external&signature=f3bc1da052bc98f1ddf0faa2e68edb8256c8680a1505f72916d8fd98381f9086): serving 302, 0 bytes
-2025/06/17 14:50:50 ServeHTTP(https://grafana.com/api/profile): serving 200, 24 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/events/obscon/2025/grafana-obscon2025-promo-logo-black.svg): serving 200, 27372 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/static/assets/img/icons/grafana-play-icon.svg): serving 200, 179 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/static/img/grafana/showcase_visualize.jpg): serving 200, 133795 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202, 0 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-delltechnologies-mono-v2.svg): serving 200, 5955 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-asos-mono-v2.svg): serving 200, 3966 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/atlassian-logo-vert.svg): serving 200, 4001 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-optum-mono-v2.svg): serving 200, 2037 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-sky-mono-v2.svg): serving 200, 1731 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/roblox-logo-mono.svg): serving 200, 1466 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-kushi-mono-v2.svg): serving 200, 9529 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-DHLexpress-mono-v2.svg): serving 200, 4224 bytes
-2025/06/17 14:50:51 ServeHTTP(https://vod-progressive-ak.vimeocdn.com/exp=1750175438~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2272%2F22%2F561360326%2F2654687008.mp4~hmac=a163daa90aa41e3625d25391da606b13cf5801d5e641499188ee74295005f315/vimeo-prod-skyfire-std-us/01/2272/22/561360326/2654687008.mp4?filename=file.mp4): serving 206, 1227545 bytes
-2025/06/17 14:50:51 ServeHTTP(https://grafana.com/media/images/logos/logo-wellsfargo-mono-v2.svg): serving 200, 6003 bytes
-2025/06/17 14:50:52 ServeHTTP(https://grafana.com/canspam): serving 403, 12 bytes
-2025/06/17 14:50:52 ServeHTTP(https://grafana.com/static/assets/img/fav32.png): serving 200, 1118 bytes
-2025/06/17 14:50:53 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202, 0 bytes
-2025/06/17 14:50:53 ServeHTTP(https://grafana.com/connect/af1fca71911a9641ebdffddb56889e97): serving 202, 0 bytes
-2025/06/17 14:52:08 Shutting down
-2025/06/17 14:52:08 Writing archive file to /workdir/archive.wprgo
+2025/06/18 08:04:31 Loading cert from /workdir/cert.pem
+2025/06/18 08:04:31 Loading key from /workdir/key.pem
+2025/06/18 08:04:31 Opened archive /workdir/archive.wprgo
+2025/06/18 08:04:31 Loading script from deterministic.js
+2025/06/18 08:04:31 Use Ctrl-C to exit.
+2025/06/18 08:04:31 Starting server on http://127.0.0.1:8080
+2025/06/18 08:04:31 Starting server on https://127.0.0.1:8081
+2025/06/18 08:05:47 ServeHTTP(https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard): serving 200, 43 bytes
+2025/06/18 08:05:49 ScriptInjector(https://stackoverflow.com/questions): succesfully injected
+2025/06/18 08:05:49 ServeHTTP(https://stackoverflow.com/questions): serving 200, 45144 bytes
+2025/06/18 08:05:50 http: TLS handshake error from 127.0.0.1:51590: EOF
+2025/06/18 08:05:50 http: TLS handshake error from 127.0.0.1:51574: EOF
+2025/06/18 08:05:50 http: TLS handshake error from 127.0.0.1:51606: EOF
+2025/06/18 08:05:50 ServeHTTP(https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js): serving 200, 30462 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/stub.en.js?v=9897abb98316): serving 200, 18505 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Shared/Channels/channels.css?v=2c98e83b4da0): serving 200, 4637 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=6839c0a3a27c): serving 200, 75803 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=50aa961744df): serving 200, 31048 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Shared/stacks.css?v=3f4bdc9bb40b): serving 200, 112272 bytes
+2025/06/18 08:05:50 http: TLS handshake error from 127.0.0.1:51584: EOF
+2025/06/18 08:05:50 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/otSDKStub.js): serving 200, 7646 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/1913.en.js?v=5c5b30d0ef5f): serving 200, 615 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/questions/list.en.js?v=c4fb7b6fad48): serving 200, 12816 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/svelte.en.js?v=386438d13fba): serving 200, 29988 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/8901.en.js?v=9ff34567d3a5): serving 200, 8723 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/islands/one-tap.en.js?v=84e66aca603c): serving 200, 1616 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Img/teams/teams-promo.svg?v=e507948b81bf): serving 200, 629 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/1130.en.js?v=70fcdc9ce0b0): serving 200, 7453 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/islands/homepage-wizard.en.js?v=a9319a4a22a7): serving 200, 16393 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/stacks-svelte.en.js?v=8d233933e909): serving 200, 9461 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/islands/signup-modal.en.js?v=e779c89f026d): serving 200, 7699 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/modules/cookie-consent.en.js?v=36bebc18e04f): serving 200, 793 bytes
+2025/06/18 08:05:50 http: TLS handshake error from 127.0.0.1:51700: EOF
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/questions/userQuestionList.en.js?v=e0424c29b0d2): serving 200, 16661 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Js/webpack-chunks/9764.en.js?v=f95a15cc754c): serving 200, 4983 bytes
+2025/06/18 08:05:50 ServeHTTP(https://www.gravatar.com/avatar/f510c79739cf7bd5a963affeb2a62d95?s=32&d=identicon&r=PG): serving 200, 623 bytes
+2025/06/18 08:05:50 ServeHTTP(https://www.gravatar.com/avatar/197868f15f9c804f3f282b969f05c9a8?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200, 1363 bytes
+2025/06/18 08:05:50 ServeHTTP(https://www.gravatar.com/avatar/a3625ce08ac86074b6eeb2a3cc714d43?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200, 1216 bytes
+2025/06/18 08:05:50 http: TLS handshake error from 127.0.0.1:51684: EOF
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Img/unified/sprites.svg?v=fcc0ea44ba27): serving 200, 2831 bytes
+2025/06/18 08:05:50 http2: server: error reading preface from client 127.0.0.1:51666: read tcp 127.0.0.1:8081->127.0.0.1:51666: read: connection reset by peer
+2025/06/18 08:05:50 http2: server: error reading preface from client 127.0.0.1:51628: read tcp 127.0.0.1:8081->127.0.0.1:51628: read: connection reset by peer
+2025/06/18 08:05:50 ServeHTTP(https://www.gravatar.com/avatar/d3457d642c58e0f4a0e474004e40bf0b?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200, 344 bytes
+2025/06/18 08:05:50 ServeHTTP(https://www.gravatar.com/avatar/e333a36aa54235e5d81de22744af9213?s=32&d=identicon&r=PG&f=y&so-version=2): serving 200, 874 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/subcommunities/mobile-dev.svg?v=f6e72ddb4e44): serving 200, 598 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/subcommunities/azure.svg?v=acd37945b78d): serving 200, 203 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Img/favicons-sprite16.png?v=eb322c33ef18): serving 200, 90236 bytes
+2025/06/18 08:05:50 ServeHTTP(https://i.sstatic.net/GsYdHHBQ.jpg?s=32): serving 200, 606 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh5.googleusercontent.com/-Lflg9P2zN3A/AAAAAAAAAAI/AAAAAAAAACE/mUadlMuK54o/s32-rj/photo.jpg): serving 200, 1001 bytes
+2025/06/18 08:05:50 ServeHTTP(https://i.sstatic.net/RZcEN.jpg?s=32): serving 200, 607 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh3.googleusercontent.com/a/AATXAJxvKAbyCgIBDCP2iDdUQ-S7dfKqoFsq6fQFl32j=k-s32): serving 200, 427 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh3.googleusercontent.com/a/AGNmyxaHl58aG-HTSIJg5R35Cyt9bwYIump2TvUksk0ovQ=k-s32): serving 200, 874 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh3.googleusercontent.com/a/ALm5wu28jVqeYvkm_e3d9SDZBoWKk1beBfp06VQXEwOf=k-s32): serving 200, 507 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh3.googleusercontent.com/a-/AOh14GhMhO-c4A0LuTClX-E6T_KLDzVEehdHAe5-bI4c=k-s32): serving 200, 1807 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh6.googleusercontent.com/--e9_xBDVGj4/AAAAAAAAAAI/AAAAAAAAAAs/4TZ6Eo5vSJ4/s32-rj/photo.jpg): serving 200, 1599 bytes
+2025/06/18 08:05:50 ServeHTTP(https://i.sstatic.net/ZcaOC.png?s=32): serving 200, 1544 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/subcommunities/ci-cd.svg?v=3358d7e37d46): serving 200, 1271 bytes
+2025/06/18 08:05:50 ServeHTTP(https://lh3.googleusercontent.com/a-/AOh14Gjaj52FUxqXEKq-oZONKjg_CbDnFsMUOUbvLOB21A=k-s32): serving 200, 237 bytes
+2025/06/18 08:05:50 ServeHTTP(https://pagead2.googlesyndication.com/tag/js/gpt.js): serving 200, 33705 bytes
+2025/06/18 08:05:50 ServeHTTP(https://cdn.cookielaw.org/consent/c3d9f1e3-55f3-4eba-b268-46cee4c6789c/c3d9f1e3-55f3-4eba-b268-46cee4c6789c.json): serving 200, 1840 bytes
+2025/06/18 08:05:51 ServeHTTP(https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ): serving 200, 133648 bytes
+2025/06/18 08:05:51 ServeHTTP(https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202506120101/pubads_impl.js): serving 200, 174794 bytes
+2025/06/18 08:05:51 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/icon-48.png?v=b7e36f88ff92): serving 200, 1758 bytes
+2025/06/18 08:05:51 ServeHTTP(https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location): serving 200, 84 bytes
+2025/06/18 08:05:51 ServeHTTP(https://accounts.google.com/gsi/client): serving 200, 89456 bytes
+2025/06/18 08:05:51 ServeHTTP(https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/jsd/main.js): serving 302, 0 bytes
+2025/06/18 08:05:51 ServeHTTP(https://cdn.sstatic.net/Js/full-anon.en.js?v=9478f2e36906): serving 200, 132025 bytes
+2025/06/18 08:05:51 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/otBannerSdk.js): serving 200, 121335 bytes
+2025/06/18 08:05:51 ServeHTTP(https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/180b6a431d85/main.js?): serving 200, 4671 bytes
+2025/06/18 08:05:51 ServeHTTP(https://stackoverflow.com/cdn-cgi/challenge-platform/h/g/jsd/r/0.9814970336355299:1750230678:1U--CwJAMd-C8ThrS2uiJl5pOuK_ajle5YL9YHaqWus/951948609b56b5d3): serving 200, 0 bytes
+2025/06/18 08:05:51 ServeHTTP(https://cdn.cookielaw.org/vendorlist/iab2V2Data.json): serving 200, 82157 bytes
+2025/06/18 08:05:51 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/otTCF.js): serving 200, 17983 bytes
+2025/06/18 08:05:51 ServeHTTP(https://cdn.cookielaw.org/consent/c3d9f1e3-55f3-4eba-b268-46cee4c6789c/018f2f76-a8f7-7543-9baa-a6a9c3948824/en.json): serving 200, 42062 bytes
+2025/06/18 08:05:51 ServeHTTP(https://region1.google-analytics.com/g/collect?v=2&tid=G-WCZ03SZFCQ&gtm=45je56g0v891602898za200&_p=1750233871200&gcs=G100&gcd=13q3qPl2l5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104718208~104736445~104736447~104757984&cid=562640716.1750233871&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.55%7CChromium%3B137.0.7151.55%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.11.0&uaw=0&are=1&frm=0&pscdl=denied&_s=1&sid=1750233871&sct=1&seg=0&dl=https%3A%2F%2Fstackoverflow.com%2Fquestions&dt=Newest%20Questions%20-%20Stack%20Overflow&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.requestid=09854768-3787-48c9-839a-0aeb79158fb8&ep.routename=Questions%2FList&ep.ads_blocked=false&tfd=2501): serving 204, 0 bytes
+2025/06/18 08:05:51 ServeHTTP(https://accounts.google.com/gsi/style): serving 200, 361 bytes
+2025/06/18 08:05:52 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/assets/otCommonStyles.css): serving 200, 4298 bytes
+2025/06/18 08:05:52 ServeHTTP(https://cdn.cookielaw.org/scripttemplates/202505.1.0/assets/otFloatingRoundedCorner.json): serving 200, 2698 bytes
+2025/06/18 08:05:52 ServeHTTP(https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196): serving 200, 1016 bytes
+2025/06/18 08:05:52 ServeHTTP(https://pagead2.googlesyndication.com/pagead/managed/dict/m202506170101/gpt): serving 200, 23277 bytes
+2025/06/18 08:06:14 Shutting down
+2025/06/18 08:06:14 Writing archive file to /workdir/archive.wprgo
