@@ -13,10 +13,14 @@ In replay mode, this docker uses Web Page Replay to replay the previously visite
 
 ## Prerequisites : 
 
-You need to install Docker with the right configuration : 
-- https://docs.docker.com/engine/install/ubuntu/
-- https://docs.docker.com/engine/install/linux-postinstall/
-- google-chrome ?
+* You need to install Docker with the right configuration : 
+    - https://docs.docker.com/engine/install/ubuntu/
+    - https://docs.docker.com/engine/install/linux-postinstall/
+
+* Go with version >= 1.23.0 : 
+    - https://go.dev/doc/install
+
+* google-chrome
 
 
 ## Initialize 
@@ -50,9 +54,9 @@ Where <URL> is the page you want to record by specifying the crawl depth with <D
 
 In the output, you will have : 
 - archive.wprgo : archive file of the recorded site. Used for the replay [insert link to replay page]
-- wpr.log : logs of the tool Web Page Replay which is used in recording mode.
-- sitespeed.log : logs of the tool sitespeed.io which is used to vite the URL you want to record.
-- sitespeed.io_output : output folder of sitespeed.io containing metrics, HAR files, etc... 
+- record_logs/wpr.log : logs of the tool Web Page Replay which is used in recording mode.
+- record_logs/sitespeed.log : logs of the tool sitespeed.io which is used to vite the URL you want to record.
+- record_logs/sitespeed.io_output : output folder of sitespeed.io containing metrics, HAR files, etc... 
 
 
 ## Replay 
