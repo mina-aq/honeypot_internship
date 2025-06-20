@@ -31,16 +31,23 @@ chmod +x init.sh
 ./init.sh 
 ```
 
-This script will generate a PEM certificate and key. To use your own certificate, run :
+This script will generate a PEM certificate and key. 
+To use your own certificate, run :
 ```
 ./init.sh <your certificate> <your key>
 ```
 
 
-## Build the docker image
+## Build or pull the docker image
 
+You can either clone this repository and build the image :
 ``` 
- docker build -t <image_name> .
+docker build -t <image_name> .
+```
+
+or you can pull it from Docker Hub : 
+```
+docker pull minaq3/wpr:latest
 ```
 
 
