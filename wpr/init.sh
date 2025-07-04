@@ -17,7 +17,10 @@ else
 fi
 
 # Install certificate 
-git clone https://chromium.googlesource.com/catapult 
+if [ ! -d "$DIRECTORY" ]; then
+    git clone https://chromium.googlesource.com/catapult 
+fi
+
 cd catapult/web_page_replay_go/ 
 go mod tidy 
 go run src/wpr.go installroot --https_cert_file $CERT --https_key_file $KEY

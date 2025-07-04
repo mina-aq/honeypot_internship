@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/web/fonts/outfit/Outfit-Regular.eot');
+  src: local(''),
+       url('/web/fonts/outfit/Outfit-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/web/fonts/outfit/Outfit-Regular.woff2') format('woff2'),
+       url('/web/fonts/outfit/Outfit-Regular.woff') format('woff'),
+       url('/web/fonts/outfit/Outfit-Regular.ttf')  format('truetype'),
+       url('/web/fonts/outfit/Outfit-Regular.svg#Outfit') format('svg');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/web/fonts/outfit/Outfit-Medium.eot');
+  src: local(''),
+       url('/web/fonts/outfit/Outfit-Medium.eot?#iefix') format('embedded-opentype'),
+       url('/web/fonts/outfit/Outfit-Medium.woff2') format('woff2'),
+       url('/web/fonts/outfit/Outfit-Medium.woff') format('woff'),
+       url('/web/fonts/outfit/Outfit-Medium.ttf')  format('truetype'),
+       url('/web/fonts/outfit/Outfit-Medium.svg#Outfit') format('svg');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/web/fonts/outfit/Outfit-SemiBold.eot');
+  src: local(''),
+       url('/web/fonts/outfit/Outfit-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('/web/fonts/outfit/Outfit-SemiBold.woff2') format('woff2'),
+       url('/web/fonts/outfit/Outfit-SemiBold.woff') format('woff'),
+       url('/web/fonts/outfit/Outfit-SemiBold.ttf')  format('truetype'),
+       url('/web/fonts/outfit/Outfit-SemiBold.svg#Outfit') format('svg');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/web/fonts/outfit/Outfit-Bold.eot');
+  src: local(''),
+       url('/web/fonts/outfit/Outfit-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/web/fonts/outfit/Outfit-Bold.woff2') format('woff2'),
+       url('/web/fonts/outfit/Outfit-Bold.woff') format('woff'),
+       url('/web/fonts/outfit/Outfit-Bold.ttf')  format('truetype'),
+       url('/web/fonts/outfit/Outfit-Bold.svg#Outfit') format('svg');
+}

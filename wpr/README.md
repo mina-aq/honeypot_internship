@@ -40,14 +40,14 @@ To use your own certificate, run :
 
 ## Build or pull the docker image
 
-You can either clone this repository and build the image :
-``` 
-docker build -t <image_name> .
-```
-
-or you can pull it from Docker Hub : 
+You can either pull the image from Docker Hub : 
 ```
 docker pull minaq3/wpr:latest
+```
+
+Or you can clone this repository and build the image :
+``` 
+docker build -t <image_name> .
 ```
 
 
@@ -55,7 +55,7 @@ docker pull minaq3/wpr:latest
 
 To run the created image : 
 ```
-docker run --rm -v "$(pwd):/workdir" <image_name> record <URL> <DEPTH> <MAX_PAGES> <CERTIFICATE> <KEY>
+docker run --rm -v "$(pwd):/workdir" -v "dir/to/certs:/certs" <image_name> record <URL> <DEPTH> <MAX_PAGES> <CERTIFICATE> <KEY>
 ```
 Where <URL> is the page you want to record by specifying the crawl depth with <DEPTH> and the maximum number of visited pages with <MAX_PAGES>.
 
@@ -70,7 +70,7 @@ In the output, you will have :
 
 To run the created image : 
 ```
-docker run --rm -d -v "$(pwd):/workdir" -p <port1>:8080 -p <port2>:8081 <image_name> replay <ARCHIVE> <CERTIFICATE> <KEY>
+docker run --rm -d -v "$(pwd):/workdir" -v "dir/to/certs:/certs" -v "dir/to/archive:/archive" -p <port1>:8080 -p <port2>:8081 <image_name> replay <ARCHIVE> <CERTIFICATE> <KEY>
 ```
 
 Where <URL> is the previously recorded page that is stored in <ARCHIVE>. <port1> and <port2> must free ports. They are used to bind the docker to your local machine and will be used later to redirect HTTP and HTTPS traffic. 

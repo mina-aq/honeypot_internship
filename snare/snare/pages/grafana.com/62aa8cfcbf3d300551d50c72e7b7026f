@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15"
+   height="15"
+   viewBox="0 0 15 15"
+   fill="none"
+   version="1.1"
+   id="svg1088"
+   sodipodi:docname="icon_app.svg"
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
+  <metadata
+     id="metadata1094">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1092" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2089"
+     id="namedview1090"
+     showgrid="false"
+     inkscape:zoom="123.26667"
+     inkscape:cx="7.5"
+     inkscape:cy="9.5085757"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1088" />
+  <path
+     d="m 1.002757,3.5549706 c 0,-0.45128 0.43333,-0.84615 0.92857,-0.84615 h 11.14283 c 0.4953,0 0.9286,0.39487 0.9286,0.84615 V 12.86262 c 0,0.4513 -0.4333,0.8462 -0.9286,0.8462 H 1.931327 c -0.49524,0 -0.92857,-0.3949 -0.92857,-0.8462 z"
+     stroke="#757575"
+     stroke-width="1.5"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1080" />
+  <path
+     d="m 1.002757,5.7676606 h 13"
+     stroke="#757575"
+     stroke-width="1.5"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1082" />
+  <path
+     d="m 3.492987,9.7088206 h 0.92858"
+     stroke="#757575"
+     stroke-width="1.5"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1084" />
+  <path
+     d="m 7.002757,9.7088206 h 4"
+     stroke="#757575"
+     stroke-width="1.5"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1086" />
+</svg>
