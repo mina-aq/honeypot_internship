@@ -1,8 +1,0 @@
-2025-06-26 07:59:05 DEBUG:asyncio:__init__: Using selector: EpollSelector
-2025-06-26 08:23:37 DEBUG:asyncio:__init__: Using selector: EpollSelector
-2025-06-26 08:34:07 DEBUG:asyncio:__init__: Using selector: EpollSelector
-2025-06-26 08:43:44 DEBUG:asyncio:__init__: Using selector: EpollSelector
-2025-06-26 09:31:50 DEBUG:asyncio:__init__: Using selector: EpollSelector
-2025-06-26 10:00:03 DEBUG:asyncio:__init__: Using selector: EpollSelector
-2025-06-26 10:00:03 DEBUG:git.cmd:execute: Popen(['git', 'fetch', '-v', '--', 'origin'], cwd=/opt/tanner, universal_newlines=True, shell=None, istream=None)
-2025-06-26 10:00:04 DEBUG:git.cmd:execute: Popen(['git', 'cat-file', '--batch-check'], cwd=/opt/tanner, universal_newlines=False, shell=None, istream=<valid stream>)
