@@ -1,0 +1,41 @@
+{
+  "ws": [
+    "nginx",
+    "apache",
+    "caddy",
+    "iis",
+    "envoy"
+  ],
+  "cms": [
+    "wordpress",
+    "drupal",
+    "joomla",
+    "prestashop",
+    "magento",
+    "ghost",
+    "moodle",
+    "typo3"
+  ],
+  "db": [
+    "phpmyadmin"
+  ],
+  "log": [
+    "grafana",
+    "elasticsearch",
+    "kibana",
+    "sentry"
+  ],
+   "collab": [
+    "mattermost",
+    "nextcloud",
+    "discourse"
+  ],
+  "devops": [
+    "git",
+    "jenkins",
+    "gitlab",
+    "harbor",
+    "sonarqube",
+    "artifactory"
+  ]
+}

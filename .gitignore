@@ -1,11 +1,8 @@
-    docker/
-    snare/
-    wpr/archives/
-    wpr/tests
-    wpr/archive.wprgo
-    wpr/catapult/
-    wpr/cert.pem
-    wpr/key.pem
-    wpr/record_logs/
-    wpr/replay_logs/
-    
+snare/
+archives/
+archive.wprgo
+catapult/
+cert.pem
+key.pem
+record_logs/
+replay_logs/
