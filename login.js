@@ -1,6 +1,6 @@
 export default async function (context, commands) {
   const username = 'username';
-  const password = 'passworf';
+  const password = 'password';
   const usernameField = 'user_field';
   const passwordField = 'pass_field'
 
