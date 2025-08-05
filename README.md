@@ -42,14 +42,14 @@ To use your own certificate, run :
 ```
 
 
-## Build or pull the docker image
+## Pull or build the docker image
 
-You can either pull the image from Docker Hub : 
+You can either pull the pre-built image from Docker Hub :
 ```
 docker pull minaq3/wpr:latest
 ```
 
-Or you can clone this repository and build your own image :
+Or clone this repository and build your own image :
 ``` 
 docker build -t <image_name> .
 ```
@@ -57,7 +57,9 @@ docker build -t <image_name> .
 
 ## Record 
 
-To run the created image : 
+Two different configurations are available.
+
+* To record static websites where no login is required, you can run : 
 ```
 docker run --rm -v "$(pwd):/workdir" -v "dir/to/certs:/certs" <image_name> record <URL> <DEPTH> <MAX_PAGES> <CERTIFICATE> <KEY>
 ```
@@ -65,6 +67,36 @@ Where ```URL``` is the page you want to record by specifying the crawl depth wit
 
 For ```DEPTH``` = 0, you will only have the given ```URL```. The crawl only keeps the pages of the same domain as the given URL. 
 
+
+
+* To record a website where you need to insert credentials to access the content, you can run :
+```
+docker run --rm -v "$(pwd):/workdir" -v "dir/to/certs:/certs" -v "dir/to/script:/js_script" <image_name> record login <SCRIPT> <CERTIFICATE> <KEY> 
+```
+Where ```SCRIPT``` should be your JavaScript script to automate the login. 
+Here is an example : 
+
+```
+export default async function (context, commands) {
+    const username = '';
+    const password = '';
+    const usernameField = '';
+    const passwordField = ''
+    const loginUrl = '';
+
+    await commands.navigate(loginUrl);
+
+    await commands.addText.byId(username, usernameField);
+    await commands.addText.byId(password, passwordField);
+
+    await commands.click.bySelectorAndWait('button[type="submit"]');
+    await commands.wait.byTime(3000);
+};
+```
+
+You need to fill and adjust the variables in order to fit your site : ```username``` and ```password``` are the credentials you wish to use. To find ```usernameField``` and ```passwordField```, you can inspect your webpage and look for the corresponding form. 
+
+A much more complete example is available on this git repository. 
 
 #### Output :
 
@@ -146,7 +178,7 @@ Here is an example of configuration for a reverse proxy with nginx :
 
     The directive ```proxy_set_header Host``` should match the domain name used during the recording phase. 
 
-* Restart your reverse proxy ```sudo systemctl restart nginx.service```.
+* Enable the page with ```ln -s /etc/nginx/sites-available/server[1,2] /etc/nginx/sites-enabled/server[1,2]``` the restart your reverse proxy ```sudo systemctl restart nginx.service```.
 * Now you can access both your servers from a browser by typing in a browser ```http://server1``` and ```http://server2```. 
 
 For more information on the configuration, check the documentation : https://nginx.org/en/docs/. 

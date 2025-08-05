@@ -13,9 +13,7 @@ WORKDIR /opt
 # Install Web Page Replay Go 
 RUN git clone https://chromium.googlesource.com/catapult \
     && cd catapult/web_page_replay_go/ \
-    && go mod tidy 
-    #&& sed -i 's/go 1.23.0/go 1.22/' go.mod 
-
+    && sed -i 's/go 1.23.0/go 1.23/' go.mod 
 
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
